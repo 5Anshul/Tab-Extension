@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="popup.js"></script>
+  </head>
+  <body class="bod">
+    <div class="topnav">
+      <img class="logo-img" src="navLogo.png" width="30" height="30" />
+      <h1 class="heading">Tab Manager</h1>
+    </div>
+    <body>
+      <br />
+      <br />
+      <br />
+      <div class="head margin bode" id="confirmationPopup">
+        <p class="head high">Do you want to save the tabs before closing?</p>
+        <button class="top newButton" id="yesButton">Yes</button>
+        <button class="top newButton" id="noButton">No</button>
+        <br />
+        <br />
+      </div>
+      <br />
+      <br />
+      <div class="bode" id="savedTabsSection">
+        <h3 class="head">Saved Tabs:</h3>
+        <select class="newButton" id="dateSelect"></select>
+        <br />
+        <button class="newButton" id="retrieveButton">Retrieve Tabs</button>
+        <button class="newButton" id="restoreButton">Restore Tabs</button>
+        <button class="newButton" id="deleteButton">Delete Saved Tabs</button>
+        <ul id="savedTabsList"></ul>
+      </div>
+      <div class="bode" id="currentTabsSection">
+        <h3 class="head">Current Tabs:</h3>
+        <ul id="ext_tabs"></ul>
+      </div>
+    </body>
+    <footer>
+      <p class="footer">©Anshul 2023</p>
+    </footer>
+  </body>
+</html>

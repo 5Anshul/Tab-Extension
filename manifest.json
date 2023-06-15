@@ -1,0 +1,26 @@
+{
+  "name": "Manage Tab Extension",
+  "version": "0.1",
+  "description": "This Extension allow you to manage your tabs",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js", "popup.js"]
+    }
+  ],
+  "icons": {
+    "16": "tab_logo.png",
+    "48": "tab_logo.png",
+    "128": "tab_logo.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "tab_logo.png",
+    "css": ["style.css"]
+  }
+}

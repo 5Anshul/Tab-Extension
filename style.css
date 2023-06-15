@@ -1,0 +1,236 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333333;
+  width: 270px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bode {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.head {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3bb2d6;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #35a0c0;
+}
+
+/* Top navigation */
+.topnav {
+  background-color: #333333;
+  overflow: hidden;
+}
+
+.topnav h1 {
+  color: #ffffff;
+  padding: 10px;
+}
+
+/* Confirmation Popup */
+#confirmationPopup {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Saved Tabs Section */
+#savedTabsSection {
+  border: 2px solid #cccccc;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#savedTabsSection h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#dateSelect {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #3bb2d6;
+  color: white;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#dateSelect:hover {
+  background-color: #35a0c0;
+}
+
+#retrieveButton,
+#restoreButton {
+  margin-bottom: 10px;
+}
+
+#savedTabsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#savedTabsList li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+#savedTabsList li a {
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#savedTabsList li a:hover {
+  color: #1da1f2;
+}
+
+/* Current Tabs Section */
+#currentTabsSection {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 2px solid #cccccc;
+  margin-bottom: 20px;
+}
+#currentTabsSection h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#ext_tabs li {
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid whitesmoke;
+  font-size: 12px;
+  border-radius: 4px;
+}
+#ext_tabs li.active {
+  border: 2px solid#000;
+  border-color: #3bb2d6;
+  margin-right: 5px;
+}
+#ext_tabs li p {
+  margin-bottom: 5px;
+}
+
+#ext_tabs li button {
+  margin-left: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bode {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.head {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+}
+
+.list-item.active {
+  background-color: #e0e0e0;
+}
+
+.list-item p {
+  margin: 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.list-item button {
+  background-color: transparent;
+  border: none;
+  color: #f44336;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.list-item button:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #757575;
+}
+.logo-img {
+  float: left;
+  position: relative;
+  margin: 10px 10px;
+  margin-top: 25px;
+  margin-right: 0%;
+}
